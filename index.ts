@@ -1,8 +1,8 @@
-const natural = require("natural");
+import natural from "natural"
 
 // stemmer function
-const GetStems = (words) => {
-  const stems = [];
+const GetStems = (words: string[]) => {
+  const stems: string[] = [];
   for (let i = 0; i < words.length; i++) {
     // stemming each words
     const stem = natural.PorterStemmer.stem(words[i]);
@@ -12,4 +12,4 @@ const GetStems = (words) => {
   return stems;
 };
 
-module.exports = { GetStems };
+export default GetStems
