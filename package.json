@@ -1,6 +1,6 @@
 {
   "name": "natural-stemming",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Natural Stemming is a package that will make an array of mutliple words to single stem and return array",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
