@@ -1,0 +1,19 @@
+{
+  "name": "natural-stemming",
+  "version": "1.0.0",
+  "description": "Natural Stemming is a package that will make an array of mutliple words to single stem and return array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nextjs",
+    "naturaljs",
+    "reactjs",
+    "js",
+    "nlp",
+    "ai"
+  ],
+  "author": "Musiur Alam Opu",
+  "license": "ISC"
+}
