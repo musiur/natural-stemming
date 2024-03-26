@@ -1,7 +1,7 @@
 import natural from "natural"
 
 // stemmer function
-const GetStems = (words: string[]) => {
+export function GetStems(words: string[]){
   const stems: string[] = [];
   for (let i = 0; i < words.length; i++) {
     // stemming each words
@@ -11,5 +11,3 @@ const GetStems = (words: string[]) => {
 
   return stems;
 };
-
-export default GetStems
